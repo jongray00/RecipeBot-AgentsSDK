@@ -1,7 +1,7 @@
 # Advanced Recipe Voice Agent
 
 This project demonstrates a **SignalWire AI Agent** that acts as a
-sophisticated culinary assistant.\
+sophisticated culinary assistant.
 It integrates **SWAIG (SignalWire AI Gateway)** with the **Agents SDK**
 to deliver real-time cooking guidance, recipe discovery, and ingredient
 substitution via natural voice conversation.
@@ -11,14 +11,14 @@ substitution via natural voice conversation.
 ## ✨ Features
 
 -   **Multi-context conversation flow**: Greeting, recipe search,
-    cooking guidance.\
+    cooking guidance.
 -   **State management**: Remembers user preferences and dietary
-    restrictions.\
--   **API integrations**: Uses Spoonacular for recipe data.\
+    restrictions.
+-   **API integrations**: Uses Spoonacular for recipe data.
 -   **Prompt Object Model (POM)**: Structured configuration for AI
-    personality.\
+    personality.
 -   **Voice-optimized interactions**: Breaks recipes into manageable
-    spoken steps.\
+    spoken steps.
 -   **Custom SWAIG functions**: For recipe search, cooking timers,
     substitutions, and encouragement.
 
@@ -66,7 +66,7 @@ SPOONACULAR_API_KEY=your_spoonacular_api_key_here
 ### SWAIG Overview
 
 SWAIG allows your AI Agent to **call external APIs in real-time** during
-conversations.\
+conversations.
 This project uses SWAIG + DataMap to connect with the **Spoonacular
 API** for recipes. [Spoonacular API](https://spoonacular.com/food-api)
 
@@ -126,7 +126,7 @@ Expected output:
 
 2.  In the **SignalWire Dashboard**:
 
-    -   Buy a number\
+    -   Buy a number
     -   Point it to your agent's ngrok URL
 
 3.  Call your number and start cooking with **Chef Auguste** 🍲.
@@ -135,10 +135,10 @@ Expected output:
 
 ## 🧑‍🍳 Agent Personality
 
--   Role: *Chef Auguste*, expert in world cuisines.\
--   Style: Friendly, encouraging, and practical.\
+-   Role: *Chef Auguste*, expert in world cuisines.
+-   Style: Friendly, encouraging, and practical.
 -   Safety: Always checks for allergies, food safety, and
-    substitutions.\
+    substitutions.
 -   Languages: British English with natural fillers for voice guidance.
 
 ------------------------------------------------------------------------
