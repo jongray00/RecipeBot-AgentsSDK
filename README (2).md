@@ -29,8 +29,7 @@ substitution via natural voice conversation.
 ### 1. Clone Repository
 
 ``` bash
-git clone https://github.com/your-repo/advanced-recipe-agent.git
-cd advanced-recipe-agent
+gh repo clone jongray00/RecipeBot-AgentsSDK
 ```
 
 ### 2. Install Dependencies
@@ -69,7 +68,7 @@ SPOONACULAR_API_KEY=your_spoonacular_api_key_here
 SWAIG allows your AI Agent to **call external APIs in real-time** during
 conversations.\
 This project uses SWAIG + DataMap to connect with the **Spoonacular
-API** for recipes.
+API** for recipes. [Spoonacular API](https://spoonacular.com/food-api)
 
 Instead of juggling multiple services and webhooks, the **Agents SDK**
 provides everything in a **single Python file**.
@@ -147,9 +146,9 @@ Expected output:
 ## 🛠️ SWAIG Best Practices
 
 1.  **Single responsibility functions** -- Each tool does one thing
-    well.\
-2.  **Error handling** -- Always provide fallback responses.\
-3.  **State management** -- Persist user preferences across calls.\
+    well.
+2.  **Error handling** -- Always provide fallback responses.
+3.  **State management** -- Persist user preferences across calls.
 4.  **Voice-optimized responses** -- Keep them short, clear, and
     encouraging.
 
@@ -157,8 +156,8 @@ Expected output:
 
 ## 🔗 Resources
 
--   [SignalWire Developer Docs](https://developer.signalwire.com)\
--   [Agents SDK Documentation](https://developer.signalwire.com/agents)\
+-   [SignalWire Developer Docs](https://developer.signalwire.com)
+-   [Agents SDK Documentation](https://developer.signalwire.com/agents)
 -   [Spoonacular API](https://spoonacular.com/food-api)
 
 ------------------------------------------------------------------------
